@@ -57,6 +57,13 @@ Changes to be committed:
 # image goes here for green status
 Run below command to commit untracked or changed files/folders.
 git commit -m " added README.md file "
+[master (root-commit) 82f1dcd]  added readme file
+ 1 file changed, 62 insertions(+)
+ create mode 100644 README.md
+
 Here -m means message for commit.
 Now again run below command to check status.
 git status
+On branch master
+nothing to commit, working tree clean
+
