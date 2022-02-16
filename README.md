@@ -22,6 +22,7 @@ $ ls -a => list all items with hidden files/folders
 $ mkdir directoryName => to make new directory
 $ cd /path/to/any-folder => to change directory
 $ touch fileName => to create new File
+$ cat fileName => Concatenate open file, read it and close it
 ```
 
 First initialize git using below command :
@@ -78,4 +79,16 @@ On branch master
 nothing to commit, working tree clean
 ```
 
+Now again change readme and add it.
+```
+git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   README.md
+no changes added to commit (use "git add" and/or "git commit -a")
+
+git add .
+```
 
