@@ -41,11 +41,9 @@ $ touch README.md
 ```
 Whatever changes made in folder will be check by below git command :
 ```
-$ git status
+=> $ git status
 On branch master
-
 No commits yet
-
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 	README.md - red color
@@ -53,12 +51,10 @@ Untracked files:
 
 Below command used to add files/folders which have not in history new file or changed/modified.
 ```
-$ git add . 
-$ git add README.md
+=> $ git add . 
+=> $ git add README.md
 On branch master
-
 No commits yet
-
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
 	new file:   README.md - green color
@@ -66,7 +62,7 @@ Changes to be committed:
 
 Run below command to commit untracked or changed files/folders.
 ```
-git commit -m " added README.md file "
+=> $ git commit -m " added README.md file "
 [master (root-commit) 82f1dcd]  added readme file
  1 file changed, 62 insertions(+)
  create mode 100644 README.md
@@ -74,21 +70,27 @@ git commit -m " added README.md file "
 Here -m means message for commit.
 Now again run below command to check status.
 ```
-git status
+=> $ git status
 On branch master
 nothing to commit, working tree clean
 ```
 
 Now again change readme and add it.
 ```
-git status
+=> $ git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   README.md
 no changes added to commit (use "git add" and/or "git commit -a")
-
-git add .
+=> $ git add .
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+=> $ git commit -m " changes in readme file "
+[master 31606da]  changes in readme file
+ 1 file changed, 13 insertions(+)
 ```
 
