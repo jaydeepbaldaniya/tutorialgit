@@ -144,6 +144,6 @@ Copy clone project, fork project and other commands.
 => $ git fetch --all --prune (fetch all upstream changes)
 => $ git reset --hard upstream/main (Reset branch to upstream main branch)
 => $ git pull origin master (Fetch remote branch codebase)
-=> $ git rebase -i commitID (you can pick & squash(merging) commits using this command)
+=> $ git rebase -i commitHash (you can pick & squash(merging) commits using this command)
 ```
 
